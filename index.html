@@ -37,7 +37,7 @@
             padding: 10px;
         }
         .hero {
-            background: url('https://github.com/AdrenaNN/bilkent-game-development-club/raw/refs/heads/main/DALL%C2%B7E%202025-03-07%2021.31.03%20-%20A%20professional%20and%20modern%20banner%20for%20'Bilkent%20Game%20Development%20&%20Design%20Club'.%20The%20banner%20should%20feature%20futuristic%20game%20development%20elements%20such%20as%20.webp') no-repeat center center/cover;
+            background: url('https://github.com/AdrenaNN/bilkent-game-development-club/raw/refs/heads/main/DALL-E-Banner.webp') no-repeat center center/cover;
             height: 400px;
             display: flex;
             justify-content: center;
@@ -66,37 +66,11 @@
             line-height: 1.6;
             text-align: justify;
         }
-        .contact-form {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .contact-form input, .contact-form textarea {
+        .section img {
             width: 100%;
-            max-width: 500px;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        .contact-form button {
-            padding: 10px 20px;
-            background-color: #222;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .images {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 20px;
-            flex-wrap: wrap;
-        }
-        .images img {
-            width: 300px;
-            height: auto;
+            max-width: 600px;
+            display: block;
+            margin: 20px auto;
             border-radius: 10px;
         }
         footer {
@@ -109,7 +83,7 @@
 </head>
 <body>
     <header>
-        <img src="https://github.com/AdrenaNN/bilkent-game-development-club/raw/refs/heads/main/DALL%C2%B7E%202025-03-07%2021.31.01%20-%20A%20professional%20and%20modern%20logo%20for%20'Bilkent%20Game%20Development%20&%20Design%20Club'.%20The%20logo%20should%20include%20elements%20of%20game%20development%20such%20as%20a%20game%20contr.webp" alt="Club Logo" class="logo">
+        <img src="https://github.com/AdrenaNN/bilkent-game-development-club/raw/refs/heads/main/DALL-E-Logo.webp" alt="Club Logo" class="logo">
         <h1>Bilkent Game Development & Design Club</h1>
     </header>
     
@@ -125,10 +99,32 @@
     </section>
     
     <div class="container">
-        <section class="images">
-            <img src="https://github.com/AdrenaNN/bilkent-game-development-club/raw/refs/heads/main/DALL%C2%B7E%202025-03-07%2021.31.11%20-%20A%20vibrant%20and%20engaging%20image%20representing%20a%20Game%20Development%20Workshop.%20The%20image%20should%20depict%20students%20working%20on%20computers,%20designing%20and%20coding%20a%20g.webp" alt="Game Development Workshop">
-            <img src="https://github.com/AdrenaNN/bilkent-game-development-club/raw/refs/heads/main/DALL%C2%B7E%202025-03-07%2021.31.12%20-%20A%20dynamic%20and%20competitive%20scene%20representing%20a%20Game%20Jam%20Competition.%20The%20image%20should%20feature%20teams%20of%20students%20intensely%20working%20on%20their%20game%20develo.webp" alt="Game Jam Competition">
-            <img src="https://github.com/AdrenaNN/bilkent-game-development-club/raw/refs/heads/main/DALL%C2%B7E%202025-03-07%2021.31.13%20-%20A%20professional%20and%20engaging%20scene%20representing%20a%20Guest%20Talk%20with%20a%20Professional%20Game%20Designer.%20The%20image%20should%20show%20a%20well-dressed%20guest%20speaker%20pres.webp" alt="Guest Talk with Game Designer">
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>Bilkent Game Development & Design Club is dedicated to fostering creativity and collaboration among students passionate about game development. We provide an engaging environment where members can explore game design, development, and storytelling, using popular engines like Unity and Unreal Engine.</p>
+            <img src="https://github.com/AdrenaNN/bilkent-game-development-club/raw/refs/heads/main/DALL-E-Workshop.webp" alt="Game Development Workshop">
+        </section>
+
+        <section id="events" class="section">
+            <h2>Upcoming Events</h2>
+            <p>We organize various activities throughout the year, including workshops, game jams, and guest speaker sessions with industry professionals.</p>
+            <ul>
+                <li><strong>Game Development Workshop:</strong> Learn the fundamentals of game development with Unity. (Every Saturday, 2:00 PM - 4:00 PM)</li>
+                <li><strong>Game Jam Competition:</strong> Join our 48-hour team-based game-making challenge! (Once per semester)</li>
+                <li><strong>Guest Talk:</strong> Engage with professional game designers and industry experts. (Once a month)</li>
+            </ul>
+            <img src="https://github.com/AdrenaNN/bilkent-game-development-club/raw/refs/heads/main/DALL-E-GameJam.webp" alt="Game Jam Competition">
+        </section>
+        
+        <section id="projects" class="section">
+            <h2>Our Projects</h2>
+            <p>Our members have worked on diverse game projects, from pixel art platformers to complex RPGs. Each project is an opportunity for members to learn and collaborate in a dynamic, hands-on environment.</p>
+            <img src="https://github.com/AdrenaNN/bilkent-game-development-club/raw/refs/heads/main/DALL-E-GuestTalk.webp" alt="Guest Talk with Game Designer">
+        </section>
+        
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>Follow us on social media, join our Discord community, or send us an email for more information!</p>
         </section>
     </div>
     
